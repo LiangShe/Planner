@@ -82,14 +82,14 @@ astrctJointDescirptions(6).m_afDiscreteValues = [];
 
 
 astrctJointDescirptions(7).m_strName = 'Auxillary Translation';
-astrctJointDescirptions(7).m_bFixed = true;
+astrctJointDescirptions(7).m_bFixed = false;
 astrctJointDescirptions(7).m_fValue = 0;
 astrctJointDescirptions(7).m_fMin = -20;
 astrctJointDescirptions(7).m_fMax = 20;
 astrctJointDescirptions(7).m_afDiscreteValues = [];
 
 astrctJointDescirptions(8).m_strName = 'End Effector Rotation';
-astrctJointDescirptions(8).m_bFixed = false;
+astrctJointDescirptions(8).m_bFixed = true;
 astrctJointDescirptions(8).m_fValue = 0;
 astrctJointDescirptions(8).m_fMin = -180;
 astrctJointDescirptions(8).m_fMax = 180;
