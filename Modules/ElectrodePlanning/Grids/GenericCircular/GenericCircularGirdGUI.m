@@ -494,6 +494,9 @@ switch strMouseMode
                 % Place / Remove
               strctGridModel.m_strctGridParams.m_abSelectedHoles(iHoleIndex) = ~strctGridModel.m_strctGridParams.m_abSelectedHoles(iHoleIndex);
               fnUpdateGridModel(handles,strctGridModel);
+              fprintf('Grid hole position X[%.1f] Y[%.1f]\n', ...
+                  strctGridModel.m_strctGridParams.m_afGridHoleXpos_mm(iHoleIndex), ...
+                  strctGridModel.m_strctGridParams.m_afGridHoleYpos_mm(iHoleIndex));
             else
                  strctGridModel.m_strctGridParams.m_abSelectedHoles(iHoleIndex) = true;
                  fnUpdateGridModel(handles,strctGridModel);
